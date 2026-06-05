@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv?
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Data / models
+data/*
+!data/README.md
+*.csv
+*.tsv
+*.xlsx
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
